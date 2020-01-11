@@ -1,0 +1,220 @@
+.navhead{
+	color: black !important;
+	font-size: 3rem !important;
+	font-family: 'Allerta','Stencil';
+	font-weight: bolder !important;
+}
+
+.navhead:hover{
+	background-color: white !important;
+	color: #8c8c8c !important;
+	font-size: 31px !important;
+}
+
+
+
+.icon{
+	color: black !important;
+	font-size: 28px !important;
+	padding-bottom:.001rem !important;
+	
+}
+
+.icon:hover{
+	
+}
+
+.color-me{
+    color:black !important;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0rem;
+}
+.color-me:hover{
+	background-color: white !important;
+	color: #616B6B !important;
+}
+
+.center{
+	margin-left: auto;
+  	margin-right: auto;
+  	width:32%;
+  	border-radius: 50%;
+}
+
+a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #22979B;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#spin {
+  color:#131953;
+}
+#spin:after {
+  content:"";
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% { content:" Yash Narang"; }
+  17% { content:" Yash Narang"; }
+  19% { content:" pursuing"; }
+  21% { content:" a Bitsian"; }
+  23% { content:" pursuing"; }
+  25% { content:" a Bitsian"; }
+  27% { content:" pursuing"; }
+  29% { content:" a Bitsian"; }
+  31% { content:" pursuing"; }
+  33% { content:" a Bitsian"; }
+  35% { content:" Yash Narang "; }
+  37% { content:" pursuing CS"; }
+  55% { content:" pursuing CS"; }
+  57% { content:" Yash Narang "; }
+  59% { content:" a Bitsian"; }
+  61% { content:" Yash Narang "; }
+  63% { content:" a Bitsian"; }
+  65% { content:" Yash Narang "; }
+  67% { content:" a Bitsian"; }
+  69% { content:" Yash Narang"; }
+  71% { content:" a Bitsian"; }
+  87% { content:" a Bitsian"; }
+  89% { content:" Yash Narang "; }
+  91% { content:" pursuing"; }
+  93% { content:" Yash Narang "; }
+  95% { content:" pursuing"; }
+  97% { content:" Yash Narang"; }
+  100% { content:" pursuing"; }
+
+}
+
+#heading{
+	text-align: center !important;
+	font-size: 250%;
+}
+.icon2{
+  	padding-top: 3rem;
+  	padding-bottom: 3rem;
+  	text-align: center;
+}
+
+.icon3{
+	padding-left: 1rem;
+	font-size: 15px !important;
+}
+
+.icon3:hover{
+	color: #3DC0CE !important;
+	font-size: 17px !important;
+	 
+}
+
+.me{
+	text-align: center;
+	background-color: black;
+}
+
+.me2{
+	text-align: center;
+	
+	/*background-image: url("https://goverb.com/wp-content/uploads/2019/06/Verb-website-background-triangles-1024x576.png") !important;
+    background-position: center;
+    background-size: cover;*/
+    background-color: black;
+}
+
+h2{
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	color: #19243B !important;
+	font-size: 250% !important;
+}
+
+a.intro-head{
+	color: #002564;
+	font-size: 300% !important;
+	text-decoration: none !important;
+}
+
+a.intro-head:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5AB220;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.intro-head:hover{
+	font-size: 320% !important;
+	color: grey !important;
+}
+
+a.intro-head:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+.intro{
+	padding-top: 6rem;
+	font-size: 155%;
+	padding-bottom: 13rem;
+}
+
+.intro:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #E91E1E;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.intro:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.me3{
+	text-align: center;
+	background-color: black;
+}
+
+.icon4{
+  color: white !important;
+  padding-left: 1rem;
+  padding-top: 10rem;
+  size: 50%
+  
+}
+
+.icon4:hover{
+  color: #3DC0CE !important;
+  font-size: 17px !important;
+   
+}
