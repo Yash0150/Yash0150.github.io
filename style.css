@@ -5,6 +5,17 @@
 	font-weight: bolder !important;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
 .navhead:hover{
 	background-color: white !important;
 	color: #8c8c8c !important;
@@ -38,8 +49,8 @@
 .center{
 	margin-left: auto;
   	margin-right: auto;
-  	width:32%;
-  	border-radius: 50%;
+  	width:40%;
+    border-radius: 50%;
 }
 
 a.middle
@@ -178,9 +189,9 @@ a.intro-head:hover:before {
 
 
 .intro{
-	padding-top: 6rem;
+	
 	font-size: 155%;
-	padding-bottom: 13rem;
+	padding-bottom: 6rem;
 }
 
 .intro:before {
@@ -208,7 +219,7 @@ a.intro-head:hover:before {
 .icon4{
   color: white !important;
   padding-left: 1rem;
-  padding-top: 10rem;
+  padding-top: 3rem;
   size: 50%
   
 }
